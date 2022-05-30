@@ -1,25 +1,438 @@
-<i class="material-icons">widgets</i>fa fa-th-largefa fa-heart-o<i class="fa fa-th-large"></i>fa fa-usersword-spacing: 55px;text-align: center;
-  justify-content:;nav .fs{
-  width: 20px; 
-  background:white;
-  font-size: 20px;
-  padding: 10px; 
-  border: solid 1px white;
-  border-radius:12px;.in2{
-  margin: 5px;
-  padding: 5px;
-    max-width:900px;
-    background: wheat;width: 20px; 
-  background:white;
-  font-size: 20px;
-  padding: 10px; 
-  border: solid 1px white;
-  border-radius:12px;
-}.nev .f1{
-  width: 50px; 
-  background:white;
-  font-size: 30px;
-  padding: 10px; 
-  border: solid 1px white;
-  border-radius:12px;
+First  Page 
+
+  <!DOCTYPE html>
+  <html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Welcome to Rohan</title>
+
+    <!-- HTML -->
+
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body class="body">
+
+
+    <h1 class="logo">rohan</h1>
+    <div class="min">
+
+      <img class="fix" src="pngwing.com.png" alt="ice cream png">
+      <h1 class="h1">enjoy it before it melts</h1>
+      <div class="p">
+        <p>Get ready for an epic brain freeze because these are the most amazing ice-creams in the world</p>
+
+        <a href="index2.html">Start</a>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+
+  </html>
+
+
+           Second page
+
+ 
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Home+Rohan</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body class="in2">
+  <nav>
+    <i class="fs fa fa-reorder" </i>
+      <i class=" fr fa fa-bell" </i>
+        <i class="fr fa fa-shopping-cart" </i>
+
+
+  </nav>
+
+  <p class="af">Good Morning !</p>
+  <p class="jack">Jack Son Oliver</p>
+
+  <input class="search" type="search"> <i class="fa fa-search" style="font-size: 20px; " </i>
+
+    <br>
+
+    <div class="dp">
+      <a class="active" href="#">All</a>
+      <a href="#">Vanilla</a>
+      <a href="#">Chocolate</a>
+      <a href="#">Creamy</a>
+    </div>
+
+    <div class="card-main">
+      <div class="card">
+        <img src="pngwing.com.png" alt="ice cream ">
+        <p class="title">Mongo ice cream</p>
+        <div class="das">
+
+          <p class="dis">this is the onome ice cream buy now </p>
+          <p class="price"><i class="fr fa fa-shopping-cart" </i>15mins *4.3</p>
+          <a class="btn" href="#">$ 3.32</a>
+        </div>
+      </div>
+
+
+      <div class="card">
+        <img src="pngwing.com.png" alt="ice cream ">
+        <p class="title">milk ice cream</p>
+        <div class="das">
+
+          <p class="dis">this is the onome ice cream buy now </p>
+          <p class="price"><i class="fr fa fa-shopping-cart" </i>15mins *4.3</p>
+          <a class="btn" href="#">$ 3.32</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="pngwing.com.png" alt="ice cream ">
+        <p class="title">onome ice cream</p>
+        <div class="das">
+
+          <p class="dis">this is the onome ice cream buy now </p>
+          <p class="price"><i class="fr fa fa-shopping-cart" </i>15mins *4.3</p>
+          <a class="btn" href="#">$ 3.32</a>
+        </div>
+      </div>
+    </div>
+ <p>chocelate</p>
+    <div class="card-main">
+      <div class="card-ma">
+        <img src="pngwing.com.png" alt="pngwing">
+        <div class="dis">
+          <h1>choce bar</h1>
+          <a href="#">$3.5</a>
+        </div>
+      </div>
+
+      <div class="card-ma">
+        <img src="pngwing.com.png" alt="pngwing">
+        <div class="dis">
+          <h1>choce bar</h1>
+          <a href="#">$3.5</a>
+        </div>
+      </div>
+
+      <div class="card-ma">
+        <img src="pngwing.com.png" alt="pngwing">
+        <div class="dis">
+          <h1>choce bar</h1>
+          <a href="#">$3.5</a>
+        </div>
+      </div>
+
+    </div>
+    <br />
+    <br />
+    <div class="nev">
+      <p class="f1 fa fa-home"></p>
+      <p class="f2 fa fa-bolt"></p>
+      <p class="f3 fa fa-th-large"></p>
+      <p class="f4 fa fa-heart-o"></p>
+      <p class="f5 fa fa-users"></p>
+    </div>
+
+</body>
+
+</html>
+
+      
+       Css file input 
+
+
+body {
+
+  box-sizing: border-box;
+  font-family: 'Courier New', Courier, monospace;
+  margin: 0 5px 0 0;
+  padding: 0;
+
 }
+
+.body {
+  padding: 5px;
+  max-width: 900px;
+  background: wheat;
+
+}
+
+.logo {
+  color: black;
+  margin-left: 0px;
+  text-transform: uppercase;
+}
+
+.fix {
+  width: 320px;
+  margin: 90px 0 10px 20px;
+}
+
+div .h1 {
+  background: wheat;
+  text-transform: capitalize;
+  text-align: center;
+  justify-content: center;
+  font-size: 24px;
+}
+
+.p {
+  text-transform: capitalize;
+  justify-content: center;
+  font-size: 15px;
+  text-align: center;
+}
+
+
+
+.p a {
+  margin-left:140px; 
+  background: white;
+  position: fixed;
+  left: 0;
+  bottom: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+  border: solid black 3px; 
+  border-radius: 12px; 
+  background: black; 
+}
+
+.p a:hover {
+  color: blue;
+  background: black;
+  border: solid black 3px; 
+  background:black;
+  border-radius: 12px; 
+}
+
+/*index2.html style css */
+.in2 {
+  margin: 5px 0 0 0;
+  padding: 5px;
+  max-width: 900px;
+  background: wheat;
+}
+
+nav .fs {
+  width: 20px;
+  background: white;
+  font-size: 20px;
+  padding: 10px;
+  border: solid 1px white;
+  border-radius: 12px;
+}
+
+nav .fr {
+  align-content: space-between;
+  width: 20px;
+  float: right;
+  font-size: 20px;
+  padding: 10px;
+}
+
+
+.fa-bell {
+
+  border: solid 1px white;
+  border-radius: 12px;
+  background: white;
+  margin-left: 10px;
+}
+
+
+.fa-shopping-cart {
+  border: solid 1px white;
+  border-radius: 12px;
+  background: white;
+  margin-right: 10px;
+}
+
+.search {
+  height: 45px;
+  width: 70%;
+  border-radius: 10px;
+}
+
+.fa-search {
+  font-size: 35px;
+  border: solid 15px white;
+  border-radius: 50%;
+  background: white;
+  margin-left: 30px;
+}
+
+.card-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.card {
+  width: 250px;
+  height: 210px;
+  border-radius: 12px;
+  background: white;
+  margin: 2px;
+  overflow: scroll;
+}
+
+.card img {
+
+  margin-left: 6px;
+  margin-top: 5px;
+  display: block;
+  width: 100px;
+  height: 80px;
+}
+
+.card .title {
+  text-align: center;
+  justify-content: center;
+  font-size: 15px;
+  margin-top: -3px;
+  font-weight: bold;
+}
+
+.card .dis {
+  margin-top: -3px;
+  text-align: center;
+  font-size: 10px;
+}
+
+.card .price {
+  text-align: center;
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.card .btn {
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  background: black;
+  border: 5px solid black;
+  border-radius: 12px;
+}
+
+.das {
+
+  text-align: center;
+}
+
+.btn:hover {
+  background: blue;
+  border: 1px solid white;
+}
+
+.dp {
+  display: flex;
+}
+
+.dp a {
+  border: 1px solid black;
+  border-radius: 12px;
+  padding: 5px;
+  text-decoration: none;
+  color: black;
+  float: left;
+  margin: 24px 1px 20px 10px;
+}
+
+.af {
+  margin: 18px 12px 0 16px;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.jack {
+  margin: -1px 12px 11px 12px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.active {
+  background: white;
+}
+
+/* nav bar bottom*/
+
+.nev {
+  bottom: -1px;
+  position: fixed;
+  width: 350px;
+  height: 40px;
+  background: rgba(0, 0, 0, 0.2);
+  display: flex;
+  overflow-x: auto;
+}
+
+.nev p {
+  font-size: 28px;
+  justify-content: center;
+  margin: 10px 25px 0 23px;
+}
+
+
+/*card two */
+
+.card-ma {
+  background: white;
+  justify-content: center;
+  height: 120px;
+  width: 30%;
+  border-radius: 12px;
+  margin: 5px;
+
+}
+
+
+.card-ma img {
+  width: 100px;
+}
+
+.card-ma .dis {
+  margin-top: -15px;
+  text-align: center;
+  font-size: 8px;
+}
+
+.dis a {
+  margin-top: 15px;
+  text-decoration: none;
+  border: solid 2px black;
+  border-radius: 10px;
+  padding: 3px;
+  font-size: 10px;
+  color: white;
+  background: black;
+}
+
+.dis a:hover {
+  color: white;
+  background: blue;
+  border: 1px solid white;
+}
+
+h4{
+  margin:-12 0 -12 0;
+}
+
+
